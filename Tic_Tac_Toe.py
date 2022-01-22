@@ -125,6 +125,7 @@ def victory_for(the_board, sign):
 def enter_move(the_board):
 #     # The function accepts the board's current status, asks the user about their move, 
 #     # checks the input, and updates the board according to the user's decision.
+#  checking - git
     try:
         player_move = int(input("Please enter your move: "))
         make_list_of_free_fields(the_board)
